@@ -1,0 +1,203 @@
+1
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        *:hover {
+            outline: 5px solid rgb(255, 0, 0);
+        }
+
+
+        section,
+        header,
+        hgroup,
+        footer,
+        nav,
+        article,
+        aside,
+        figure,
+        figcaption,
+        aside,
+        .section,
+        .header,
+        .hgroup,
+        .footer,
+        .nav,
+        .article,
+        .aside,
+        .figure,
+        .figcaption,
+        .aside {
+            border: 1px solid rgb(255, 255, 255);
+            background-color: rgba(153, 153, 153, .25);
+            display: block;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        section,
+        aside,
+        .section,
+        .aside {
+            float: left;
+        }
+
+        header,
+        footer,
+        .header,
+        .footer {
+            clear: both;
+        }
+
+        #pagecontent {
+            margin: 0 auto;
+            max-width: 1045px;
+            min-width: 480px;
+            width: 100%;
+        }
+
+        #pageheader,
+        #pagefooter {
+            max-width: 1020px;
+            min-width: 480px;
+            width: 100%;
+        }
+
+        #sectioncontent1 {
+            max-width: 600px;
+            min-width: 400px;
+            width: 100%;
+
+        }
+
+        #asidecontent1 {
+            max-width: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="pagecontent" class="pagecontent">
+
+        <header id="pageheader" class="header pageheader">
+
+            <hgroup id="pagehgroup" class="pagehgroup">
+                <h1 class="sitename"><a href="/" rel="home" title="Home">HTML5 Structure</a></h1>
+                <img width="300px" height="100" src="https://bit.ueh.edu.vn/wp-content/uploads/2017/06/BIT_logo.png"
+                    class="custom-logo" alt="Khoa Công nghệ Thông tin Kinh doanh">
+            </hgroup>
+
+            <nav id="globalnav" class="nav globalnav" style="padding: 30px;">
+                <a href="http://" target="_blank" rel="noopener noreferrer"
+                    style="color: blueviolet; padding: 0px 10px;">Chương trình Đại học</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"
+                    style="color: blueviolet; padding: 0px 10px;">CT Liên thông Đại học</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer" style="padding: 0px 10px;">Chương trình sau
+                    Đại học</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer" style="padding: 0px 10px;">Chương trình quốc
+                    tế</a>
+            </nav>
+
+        </header>
+
+        <section id="sectioncontent1" class="section sectioncontent">
+            <section id="sectionheader1" class="header sectionheader">
+                <h2>Chương trình Đại học</h2>
+            </section>
+            <article id="articlecontent1" class="article articlecontent">
+                <article id="articleheader1" class="header articleheader">
+                    <h3>
+                        <a href="" target="_blank" style="color: blue;">Hệ thống hoạch định nguồn lực doanh nghiệp
+                            (ERP)</a>
+                    </h3>
+                </article>
+                <p>Nhu cầu xã hội Hoạch định các nguồn lực một cách hiệu quả để nhắm đến mục tiêu giảm chi phí, tăng sức
+                    cạnh tranh là một vấn đề mà mọi doanh nghiệp luôn phải đối mặt, nhất là trong thời kỳ hội nhập hiện
+                    nay. Hệ thống hoạch định nguồn lực doanh nghiệp (ERP) [...]</p>
+                <figure id="figure1" class="figure">
+                    <img src="https://bit.ueh.edu.vn/wp-content/uploads/2018/05/ERP-770x385.jpg" width="100%">
+                    <p>Figure</p>
+                    <div class="figcaption">Figure Caption</div>
+                </figure>
+                <article id="articlefooter1" class="footer articlefooter">
+                    <p>Article footer</p>
+                </article>
+            </article>
+
+            <div>
+                <article id="articleheader2" class="header articleheader">
+                    <h3>Article Header</h3>
+                </article>
+                <p>Artcle</p>
+                <figure id="fugure2" class="figure">
+                    <p>Figure</p>
+                    <div class="figcaption">Figure Caption</div>
+                </figure>
+                <article id="articlefooter2" class="footer articlefooter">
+                    <p>Article footer</p>
+                </article>
+            </div>
+
+            <section id="sectionfooter1" class="footer sectionfooter">
+                <p>Section Footer</p>
+            </section>
+        </section>
+
+        <aside id="asidecontent1" class="aside asidecontent">
+            <div class="header sectionheader">
+                <h2>
+                    Liên kết
+                </h2>
+            </div>
+
+            <div>
+                <div class="header articleheadeer">
+                    <h3>
+                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                            Hệ thống thông tin kinh doanh
+                        </a>
+                    </h3>
+                </div>
+                <img src="https://bit.ueh.edu.vn/wp-content/uploads/2017/06/mis-770x385.jpg" width="100%">
+                <p>
+                    Nhu cầu xã hội hiện nay, ứng dụng công nghệ trong điều hành doanh nghiệp đang được phổ biến. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sequi inventore aut! Error quisquam placeat officiis laborum, illo dolores totam libero hic iste laudantium unde obcaecati! Distinctio quas cum harum!
+                </p>
+                <article id="articlefooter2" class="footer articlefooter">
+                    <p>Aside Article footer</p>
+                </article>
+            </div>
+
+            <div>
+                <div class="header articleheadeer">
+                    <h3>Aside Article Header</h3>
+                </div>
+                <p>Aside Artcle Copy</p>
+                <div class="footer articlefooter">
+                    <p>Aside Article footer</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="header articleheadeer">
+                    <h3>Aside Article Header</h3>
+                </div>
+                <p>Aside Artcle Copy</p>
+                <div class="footer articlefooter">
+                    <p>Aside Article footer</p>
+                </div>
+            </div>
+
+            <div class="header articlefooter">
+                <p>Aside footer</p>
+            </div>
+            </á>
+
+            <footer id="pagefooter" class="footer pagefooter">
+                <p>Page Footer</p>
+            </footer>
+    </section>
+</body>
+
+</html>
